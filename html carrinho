@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <title>Carrinho</title>
+</head>
+<body>
+    <div class="wrapper">
+		<h1>meu carrinho</h1>
+		<div class="project">
+			<div class="shop">
+				<div class="box">
+					<img src="https://static3.tcdn.com.br/img/img_prod/766844/iphone_12_64gb_lilas_novo_de_vitrine_443_2_6b6c9856e7de06c2cfedf490396ccc00.jpg">
+					<div class="content">
+						<h3>iPhone 12</h3>
+						<h4>Preço: R$3500,00</h4>
+						<p class="unit">Quantidade: <input name="" value="1"></p>
+						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remover</span></p>
+					</div>
+				</div>
+				<div class="box">
+					<img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/p/g/pgm-p301-rgb4.jpg">
+					<div class="content">
+						<h3>Mouse gamer</h3>
+						<h4>Preço: R$100,00</h4>
+						<p class="unit">Quantidade: <input name="" value="1"></p>
+						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remover</span></p>
+					</div>
+				</div>
+				<div class="box">
+					<img src="https://www.mirao.com.br/media/catalog/product/cache/1efb9fa02a7d21bc73fce105030e16a5/h/f/hf-g600_1.jpeg">
+					<div class="content">
+						<h3>Headset</h3>
+						<h4>Preço: R$150,00</h4>
+						<p class="unit">Quantidade: <input name="" value="1"></p>
+						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remover</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="right-bar">
+				<p><span>Subtotal</span> <span>R$3750,00</span></p>
+				<hr>
+				<p><span>Frete</span> <span>R$15,00</span></p>
+				<hr>
+				<p><span>Total</span> <span>R$3765,00</span></p><a href="#"><i class="fa fa-shopping-cart"></i>Pagamento</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

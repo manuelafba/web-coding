@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastro de Produtos</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" name="nome" placeholder="Nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="quantidade">Quantidade</label>
+                        <input id="quantidade" type="number" name="quantidade" placeholder="Quantidade" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="marca">Marca</label>
+                        <input id="marca" type="text" name="marca" placeholder="Marca" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="valor">Valor</label>
+                        <input id="valor" type="number" name="valor" placeholder="Valor" required>
+                    </div>
+                </div>
+                <div class="cadastrar-button">
+                    <button><a href="#">Cadastrar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
